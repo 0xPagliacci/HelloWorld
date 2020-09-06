@@ -5,3 +5,5 @@
 - Incompressible Encodings是否能在检索效率的优化上做出成就？
 - 模拟 不可区分 选择安全 自适应 规约 区分器 敌手 随机预言机 究竟是什么关系？
 https://zhuanlan.zhihu.com/p/104290214
+- 看完 混淆电路与不可区分混淆 算是找回了之前的记忆。
+- 配置sophos
