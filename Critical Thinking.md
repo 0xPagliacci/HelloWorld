@@ -33,7 +33,24 @@ https://zhuanlan.zhihu.com/p/104290214 安全性刻画
 				   背景--》cry上方案构造（DS，Key Change Key 协商）
 				   盲签名
 6.MPC
-配置rocksdb:https://blog.csdn.net/fanpengfei0/article/details/53385732
+6. MPC 
+        前几年：最佳通信复杂度--理论             
+		                  协议 ------ 应用
+						  实用化  Yao电路（commit →OT-→ 门）
+                          理论基础已经很扎实，尤其是关于通信复杂度，需要整理
+#### 整理下安全模型、密码工具、通讯复杂度、方案分类！
+
+       now：一般性讨论 
+        eg. 结果可达的高效实现（可达性查询精度是衡量图数据可用性的一项重要指标-图匿名性？）
+		MPC FAF（FRIEND-ADV-FRIEND）
+		更细精度的corrupt控制程度--无条件泄露？泄露部分信息？
+		算术电路、逻辑电路的混合使用
+		PSI 集合求交
+		零知识证明-欧米伽协议      尝试在协议中使用零知识证明
+
+配置rocksdb:https://blog.csdn.net/fanpengfei0/article/details/53385732  
+grpc：https://blog.csdn.net/MOU_IT/article/details/79846066  
+protocol buffer：数据的序列化与反序列化  
 
 
 简单理解两种不同的安全模型
