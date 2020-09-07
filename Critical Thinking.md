@@ -10,7 +10,7 @@ https://zhuanlan.zhihu.com/p/104290214 安全性刻画
 # 2020.9.7
 ### 下午组会
 
-主体思想：基础 挖深
+主体思想：基础 挖深 精读
 方向：
 1. 安全模型 
                    现代密码学分支 明白在什么model下讨论问题（这也是我之前所迷惑的）
@@ -39,7 +39,6 @@ https://zhuanlan.zhihu.com/p/104290214 安全性刻画
 						  实用化  Yao电路（commit →OT-→ 门）
                           理论基础已经很扎实，尤其是关于通信复杂度，需要整理
 #### 整理下安全模型、密码工具、通讯复杂度、方案分类！
-
        now：一般性讨论 
         eg. 结果可达的高效实现（可达性查询精度是衡量图数据可用性的一项重要指标-图匿名性？）
 		MPC FAF（FRIEND-ADV-FRIEND）
@@ -47,7 +46,12 @@ https://zhuanlan.zhihu.com/p/104290214 安全性刻画
 		算术电路、逻辑电路的混合使用
 		PSI 集合求交
 		零知识证明-欧米伽协议      尝试在协议中使用零知识证明
+欧密2020  
+看看：特邀报告 数学与密码  
+     best paper 领域：广播加密、属性加密（是否可以考虑外包资源的访问控制机制？）  
+#### 实验室的方向
 
+	  
 配置rocksdb:https://blog.csdn.net/fanpengfei0/article/details/53385732  
 grpc：https://blog.csdn.net/MOU_IT/article/details/79846066  
 protocol buffer：数据的序列化与反序列化  
