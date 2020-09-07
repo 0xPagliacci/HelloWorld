@@ -7,3 +7,5 @@
 https://zhuanlan.zhihu.com/p/104290214 安全性刻画
 - 看完 混淆电路与不可区分混淆 算是找回了之前的记忆。
 - 配置sophos
+# 2020.9.7
+配置rocksdb:https://blog.csdn.net/fanpengfei0/article/details/53385732
